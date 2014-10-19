@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Jeroen Thora]]></title>
+  <link href="http://acrobat.github.io/atom.xml" rel="self"/>
+  <link href="http://acrobat.github.io/"/>
+  <updated>2014-10-19T17:06:03+02:00</updated>
+  <id>http://acrobat.github.io/</id>
+  <author>
+    <name><![CDATA[Jeroen Thora]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    
+    <title type="html"><![CDATA[Welcome to my blog]]></title>
+    <link href="http://acrobat.github.io/blog/2014/10/19/welcome-to-my-blog/"/>
+    
+    <updated>2014-10-19T16:53:49+02:00</updated>
+    <id>http://acrobat.github.io/blog/2014/10/19/welcome-to-my-blog</id>
+    
+    <content type="html"><![CDATA[<p>I will be using this place to share my experiences and thoughts on symfony/web development, new technologies and more.</p>
+]]></content>
+    
+  </entry>
+  
+</feed>
