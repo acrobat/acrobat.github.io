@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Jeroen Thora]]></title>
-  <link href="http://jeroenthora.be/atom.xml" rel="self"/>
+  <title><![CDATA[Category: general | Jeroen Thora]]></title>
+  <link href="http://jeroenthora.be/blog/categories/general/atom.xml" rel="self"/>
   <link href="http://jeroenthora.be/"/>
   <updated>2014-10-20T11:12:33+02:00</updated>
   <id>http://jeroenthora.be/</id>
@@ -14,16 +14,12 @@
 
   
   <entry>
-    
     <title type="html"><![CDATA[Welcome to my blog]]></title>
     <link href="http://jeroenthora.be/blog/2014/10/19/welcome-to-my-blog/"/>
-    
     <updated>2014-10-19T16:53:49+02:00</updated>
     <id>http://jeroenthora.be/blog/2014/10/19/welcome-to-my-blog</id>
-    
     <content type="html"><![CDATA[<p>I will be using this place to share my experiences and thoughts on symfony/web development, new technologies and more.</p>
 ]]></content>
-    
   </entry>
   
 </feed>
