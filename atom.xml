@@ -4,7 +4,7 @@
   <title><![CDATA[Jeroen Thora]]></title>
   <link href="http://jeroenthora.be/atom.xml" rel="self"/>
   <link href="http://jeroenthora.be/"/>
-  <updated>2014-11-06T19:40:23+01:00</updated>
+  <updated>2014-11-06T19:45:20+01:00</updated>
   <id>http://jeroenthora.be/</id>
   <author>
     <name><![CDATA[Jeroen Thora]]></name>
@@ -15,7 +15,7 @@
   
   <entry>
     
-    <title type="html"><![CDATA[HTML5 placeholder support IE9]]></title>
+    <title type="html"><![CDATA[HTML5 placeholder support for IE9]]></title>
     <link href="http://jeroenthora.be/blog/2014/11/06/html5-placeholder-support-ie9/"/>
     
     <updated>2014-11-06T18:55:32+01:00</updated>
