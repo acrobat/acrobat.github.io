@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: snippet | Jeroen Thora]]></title>
+  <link href="http://jeroenthora.be/blog/categories/snippet/atom.xml" rel="self"/>
+  <link href="http://jeroenthora.be/"/>
+  <updated>2014-11-06T19:40:23+01:00</updated>
+  <id>http://jeroenthora.be/</id>
+  <author>
+    <name><![CDATA[Jeroen Thora]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[HTML5 placeholder support IE9]]></title>
+    <link href="http://jeroenthora.be/blog/2014/11/06/html5-placeholder-support-ie9/"/>
+    <updated>2014-11-06T18:55:32+01:00</updated>
+    <id>http://jeroenthora.be/blog/2014/11/06/html5-placeholder-support-ie9</id>
+    <content type="html"><![CDATA[<p>Modern web applications use HTML5 placeholders to give a hint to the user about what to enter in a field.</p>
+
+<pre><code class="html">&lt;input type="text" placeholder="Enter your name" id="name"/&gt;
+</code></pre>
+
+<p>The latest versions of all modern browsers <a href="http://caniuse.com/#feat=input-placeholder">support</a> this attribute, but older
+versions of internet explorer (&lt;IE10) don&rsquo;t support it. This little snippet will add support for the placeholder attribute in browsers
+who lack this HTML5 feature.</p>
+
+<p>&#8220;`javascript</p>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+
+<script type="text/javascript">
+$(function() {
+    var input = document.createElement("input");
+    if(('placeholder' in input)==false) { 
+        $('[placeholder]').focus(function() {
+            var i = $(this);
+            if(i.val() == i.attr('placeholder')) {
+                i.val('').removeClass('placeholder');
+                if(i.hasClass('password')) {
+                    i.removeClass('password');
+                    this.type='password';
+                }           
+            }
+        }).blur(function() {
+            var i = $(this);    
+            if(i.val() == '' || i.val() == i.attr('placeholder')) {
+                if(this.type=='password') {
+                    i.addClass('password');
+                    this.type='text';
+                }
+                i.addClass('placeholder').val(i.attr('placeholder'));
+            }
+        }).blur().parents('form').submit(function() {
+            $(this).find('[placeholder]').each(function() {
+                var i = $(this);
+                if(i.val() == i.attr('placeholder'))
+                    i.val('');
+            })
+        });
+    }
+});
+</script>
+
+
+<pre><code>
+In order to style the placeholder text, you can use the placeholder class added by this snippet
+</code></pre>
+
+<p>.placeholder {
+  color: #bbb;
+}
+&#8220;`</p>
+]]></content>
+  </entry>
+  
+</feed>

@@ -1,31 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://jeroenthora.be/blog/2014/11/06/html5-placeholder-support-ie9/</loc>
+    <lastmod>2014-11-06T18:55:32+01:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>http://jeroenthora.be/blog/2014/10/19/welcome-to-my-blog/</loc>
     <lastmod>2014-10-19T16:53:49+02:00</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>http://jeroenthora.be/</loc>
-    <lastmod>2014-10-20T11:12:33+02:00</lastmod>
+    <lastmod>2014-11-06T19:40:23+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>http://jeroenthora.be/projects/</loc>
-    <lastmod>2014-10-20T11:12:33+02:00</lastmod>
+    <lastmod>2014-11-06T19:40:23+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://jeroenthora.be/blog/archives/</loc>
-    <lastmod>2014-10-20T11:12:33+02:00</lastmod>
+    <lastmod>2014-11-06T19:40:23+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://jeroenthora.be/about/</loc>
-    <lastmod>2014-10-20T11:12:33+02:00</lastmod>
+    <lastmod>2014-11-06T19:40:23+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
