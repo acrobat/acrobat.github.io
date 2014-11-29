@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: symfony | Jeroen Thora]]></title>
+  <link href="http://jeroenthora.be/blog/categories/symfony/atom.xml" rel="self"/>
+  <link href="http://jeroenthora.be/"/>
+  <updated>2014-11-29T14:15:28+01:00</updated>
+  <id>http://jeroenthora.be/</id>
+  <author>
+    <name><![CDATA[Jeroen Thora]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Symfony 2.6 is released today]]></title>
+    <link href="http://jeroenthora.be/blog/2014/11/29/symfony-2-dot-6-is-released/"/>
+    <updated>2014-11-29T13:47:32+01:00</updated>
+    <id>http://jeroenthora.be/blog/2014/11/29/symfony-2-dot-6-is-released</id>
+    <content type="html"><![CDATA[<p>Today Symfony 2.6 is officialy released. This release is packed with nifty features and enhancements introduced by the <a href="http://symfony.com/blog/making-the-symfony-experience-exceptional">DX initiative</a>.</p>
+
+<p>Here&rsquo;s a list of features that I&rsquo;m personally exited about:</p>
+
+<ul>
+<li><a href="http://symfony.com/doc/master/components/var_dumper/introduction.html">New VarDumper Component and DebugBundle</a></li>
+<li><a href="http://symfony.com/blog/new-in-symfony-2-6-bootstrap-form-theme">Twitter Bootstrap form theme is include in the symfony core</a></li>
+<li><a href="http://symfony.com/blog/new-in-symfony-2-6-error-page-previews">Error page previews</a></li>
+<li><a href="http://symfony.com/blog/new-in-symfony-2-6-security-component-improvements">Split of the SecurityContext</a></li>
+<li><a href="http://symfony.com/blog/new-in-symfony-2-6-new-shortcut-methods-for-controllers">New shortcut methods available in controllers</a></li>
+<li><a href="http://symfony.com/blog/new-in-symfony-2-6-ajax-requests-in-the-web-debug-toolbar">AJAX requests are live traceble in the symfony profiler toolbar</a></li>
+</ul>
+
+
+<p>For a full list of new features check out <a href="http://symfony.com/blog/symfony-2-6-0-beta1-released">fabpot&rsquo;s blog post</a></p>
+
+<p>During the development of symfony 2.6 they also introduced a new <a href="https://github.com/symfony/symfony-installer">symfony installer</a>. This tool will make it
+even easier for beginners to setup a working symfony installation.</p>
+]]></content>
+  </entry>
+  
+</feed>
