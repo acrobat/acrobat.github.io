@@ -22,8 +22,6 @@ layout: default
                 {{ content }}
 
                 <!-- TODO: check if tags are possible -->
-<!--                <p class="article-tags">-->
-<!--                    Tags: {% for tag in blog.tags %}<a href="{{ path("app.tag", {tag : tag}) }}"><span class="badge">{{ tag }}</span></a> {% endfor %}-->
 
                 <div class="uk-margin-top uk-margin-bottom">
                     <a class="twitter-share-button" href="https://twitter.com/intent/tweet">Tweet</a>
@@ -35,7 +33,6 @@ layout: default
         </p>
 
 
-<!--        {% if comments is defined and comments %}-->
         <div id="disqus_thread"></div>
         <script>
             (function() { // DON'T EDIT BELOW THIS LINE
@@ -46,16 +43,6 @@ layout: default
             })();
         </script>
         <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<!--        {% else %}-->
-<!--        <hr>-->
-<!--        <div class="text-right post-bottom-actions">-->
-<!--            <i class="fa fa-link" aria-hidden="true"></i>-->
-<!--            <a href="{{ url("app.post", { name: blog.slug }) }}">Permalink</a>-->
-
-<!--            <i class="fa fa-comment" aria-hidden="true"></i>-->
-<!--            <a href="{{ path("app.post", { name: blog.slug }) }}#disqus_thread">First article</a>-->
-<!--        </div>-->
-<!--        {% endif %}-->
         </article>
     </div>
 </div>
