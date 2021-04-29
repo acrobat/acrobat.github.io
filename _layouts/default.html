@@ -8,7 +8,15 @@
     <meta name="description" content="">
     <meta name="author" content="Jeroen Thora">
 
-    <meta name="description" content="Development blog of Jeroen Thora" />
+    {% if page.layout == 'post' %}
+        {% if page.excerpt %}
+        {% assign description = page.excerpt|truncate: 110, '.' %}
+        {% else %}
+        {% assign description = 'Development blog of Jeroen Thora' %}
+        {% endif %}
+    {% endif %}
+
+    <meta name="description" content="{{ description }}" />
 
     <title>Jeroenthora.be | {{ page.title }}</title>
 
