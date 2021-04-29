@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "HTML5 placeholder support for IE9"
+description: "Modern web applications use HTML5 placeholders to give a hint to the user about what to enter in a field."
 ---
 
 Modern web applications use HTML5 placeholders to give a hint to the user about what to enter in a field.

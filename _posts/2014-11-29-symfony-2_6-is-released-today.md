@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Symfony 2.6 is released today"
+description: "Symfony 2.6 is officialy released this post highlights the most important features"
 ---
 
 Today Symfony 2.6 is officialy released. This release is packed with nifty features and enhancements introduced by the [DX initiative](http://symfony.com/blog/making-the-symfony-experience-exceptional).

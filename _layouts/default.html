@@ -4,19 +4,35 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta property="og:image" content="https://jeroenthora.be/img/logo-share.png"/>
-    <meta name="description" content="">
+
     <meta name="author" content="Jeroen Thora">
 
-    {% if page.layout == 'post' %}
-        {% if page.excerpt %}
-        {% assign description = page.excerpt|truncate: 110, '.' %}
-        {% else %}
-        {% assign description = 'Development blog of Jeroen Thora' %}
-        {% endif %}
+    <meta content="{{ site.title }}" property="og:site_name">
+    {% if page.title %}
+    <meta content="{{ page.title }}" property="og:title">
+    {% else %}
+    <meta content="{{ site.title }}" property="og:title">
     {% endif %}
-
-    <meta name="description" content="{{ description }}" />
+    {% if page.layout == 'post' and page.title %}
+    <meta content="article" property="og:type">
+    {% else %}
+    <meta content="website" property="og:type">
+    {% endif %}
+    {% if page.description %}
+    <meta content="{{ page.description }}" property="og:description">
+    <meta name="description" content="{{ page.description }}">
+    {% else %}
+    <meta content="{{ site.description }}" property="og:description">
+    <meta name="description" content="{{ site.description }}">
+    {% endif %}
+    {% if page.url %}
+    <meta content="{{ site.url }}{{ page.url }}" property="og:url">
+    {% endif %}
+    {% if page.layout == 'post' and page.date %}
+    <meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
+    <meta content="{{ site.url }}/about/" property="article:author">
+    {% endif %}
+    <meta property="og:image" content="https://jeroenthora.be/img/logo-share.png"/>
 
     <title>Jeroenthora.be | {{ page.title }}</title>
 

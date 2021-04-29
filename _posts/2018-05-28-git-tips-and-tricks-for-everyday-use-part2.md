@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Git tips & tricks for everyday use - part 2"
+description: "After the succes of the previous tips and tricks post, I gathered some tricks to make my every day git use a bit easier."
 ---
 
 The [first part of my git tips & tricks blogpost](https://jeroenthora.be/post/git-tips-and-tricks-for-everyday-use) got

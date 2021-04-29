@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Git tips & tricks for everyday use"
+description: "I've been working with git for the last few years and I have some tricks to make my every day use a bit easier."
 ---
 
 I've been working with git for the last few years and I have some tricks to make my every day use a bit easier. So I wanted to share them and hopefully help
