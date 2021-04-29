@@ -1,0 +1,37 @@
+---
+layout: default
+title: Home
+---
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            {% for post in site.posts %}
+                <article class="post-preview">
+                    <h2 class="post-title">
+                        <a href="{{ post.url }}">{{ post.title }}</a>
+                    </h2>
+                    <p class="post-meta">
+                        Written on {{ post.date | date_to_string }}.
+                    </p>
+
+                    {% if post.excerpt %}
+                        {{ post.excerpt }}
+                    {% endif %}
+
+                    <div class="actions">
+                        <div class="pull-left">
+                            <a href="{{ post.url }}">Read full post</a>
+                        </div>
+                        <div class="pull-right">
+                            <i class="fa fa-comment" aria-hidden="true"></i>
+                            <a href="{{ post.url }}#disqus_thread">Comments</a>
+                        </div>
+                    </div>
+                    <!-- TODO: check loop variable -->
+                    {% if forloop.last != 'false' %}
+                    <hr>
+                    {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+</div>
