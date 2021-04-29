@@ -8,7 +8,7 @@ excerpt_separator: <!--more-->
 permalink: /post/:title
 
 # Prism.js is used for code highlight
-highlighter: none
+highlighter: rouge
 kramdown:
   syntax_highlighter_opts:
     disable : true
