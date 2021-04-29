@@ -429,7 +429,7 @@ article ul a {
 }
 
 #about-header-wrapper > #background {
-    background-image: url(../img/about-bg.jpg);
+    background-image: url(/img/about-bg.jpg);
 }
 
 .intro-header {
