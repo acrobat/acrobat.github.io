@@ -23,8 +23,7 @@ title: Home
                             <a href="{{ post.url }}">Read more</a>
                         </div>
                     </div>
-                    <!-- TODO: check loop variable -->
-                    {% if forloop.last != 'false' %}
+                    {% if forloop.last != true %}
                     <hr>
                     {% endif %}
             {% endfor %}
