@@ -23,7 +23,7 @@
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <!-- TODO: check how to implement rss feed -->
+    <link rel="alternate" type="application/rss+xml" title="jeroenthora.be RSS Feed" href="/feed.xml" />
 </head>
 <body>
 <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
@@ -89,7 +89,7 @@
                         </a>
                     </li>
                 </ul>
-                <p class="copyright text-muted">Copyright &copy; Jeroen Thora</p>
+                <p class="copyright text-muted">Copyright &copy; {{ 'now' | date: "%Y" }} Jeroen Thora</p>
             </div>
         </div>
     </div>
